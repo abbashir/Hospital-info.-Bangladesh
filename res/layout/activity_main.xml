@@ -1,0 +1,370 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+            
+        
+        android:orientation="vertical" >
+          <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitStart"
+                android:layout_gravity="right"
+                android:src="@drawable/apolo" />
+        
+        
+          <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+         android:background="#ffffff"
+        android:orientation="vertical" >
+
+          
+         <Button
+            android:id="@+id/rmc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            
+       android:layout_marginTop="2dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+
+            android:textSize="18sp"
+            
+            android:text="Rajshahi Medical College Hospital" />
+
+        <Button
+            android:id="@+id/ibh1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            
+            android:textSize="18sp"
+          android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Islami Bank Hospital Rajshahi" />
+
+      <Button
+            android:id="@+id/pdc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Popular Diagnostic Centre Ltd." />
+       <Button
+            android:id="@+id/rrl1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Rajshahi Royal Hospital Ltd." />
+          <Button
+            android:id="@+id/jjh1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+             android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Jomjom Islami Hospital" />
+        <Button
+            android:id="@+id/mdc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+        android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Medipath Diagnostic Complex" />
+           <Button
+            android:id="@+id/dc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+              android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Dolphin Clinic Rajshahi" />
+         <Button
+            android:id="@+id/bmc1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+           android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Barind Medical College Hospital " />
+        
+        
+         <!-- Dhaka start -->
+                 <Button
+            android:id="@+id/apollo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+             android:textColor="@android:color/white"
+            android:textSize="18sp"
+          android:layout_marginTop="5dp"
+              android:background="#286090"
+            android:text="Apollo Hospitals Dhaka" />
+
+      <Button
+            android:id="@+id/Square"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            
+            android:textSize="18sp"
+              android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Square Hospitals Limited" />
+       <Button
+            android:id="@+id/dmch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+             android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Dhaka Medical College and Hospital " />
+          <Button
+            android:id="@+id/Salimullah"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+             android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Sir Salimullah M. College Mitford Hospital" />
+       
+          <!-- Dhaka end-->
+        
+        
+          <!-- Chitgang start-->
+          
+     <Button
+            android:id="@+id/delta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+             android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Delta Health Care Chittagong Limited" />
+
+          <Button
+            android:id="@+id/Ekushey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+           android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Ekushey Hospital Private Limited" />
+        <Button
+            android:id="@+id/Centre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+           android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Centre for Specialized Care and Reaseach" />
+           
+           <!-- chitagang end -->
+           
+           
+           <!-- Shylhet start -->
+         
+        <Button
+            android:id="@+id/North"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+          android:text="North East Medical College and Hospital" />
+           <Button
+            android:id="@+id/ibnshyl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+              android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Ibn Sina Hospital Sylhet Limited" />
+           
+           
+           <!-- shylhet end  -->
+           
+           
+           
+       <!-- Khulna start -->
+           
+            <Button
+            android:id="@+id/kmch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+              android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Khullna Medical College Hospital" />
+    
+         <Button
+            android:id="@+id/shaikh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+          android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Sheikh Abu NaserSpecialised Hospital" />
+            
+         <Button
+            android:id="@+id/ksh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+          android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Khulna Shishu Hospital " />
+    <!--  khulna end -->
+    
+    
+     <!--  maymonshing start -->
+             <Button
+            android:id="@+id/mmch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Mymensingh Medical College Hospital" />
+             
+             
+         
+          
+           <!--  maymonshing end -->
+           
+           
+             <!-- barishal start-->
+        <Button
+            android:id="@+id/sherebangla"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+           android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Sher-E-Bangla M. College and Hospital" />
+          
+           <!-- rangpur start-->
+          
+          <Button
+            android:id="@+id/rangmch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="25dp"
+            android:textSize="18sp"
+           android:layout_marginTop="5dp"
+               android:background="#286090"
+                android:textColor="@android:color/white"
+            android:text="Rangpur Medical College and Hospital" />
+       
+        
+            
+              </LinearLayout>
+   
+    </ScrollView>
+        
+    </LinearLayout>
+             
+</RelativeLayout>

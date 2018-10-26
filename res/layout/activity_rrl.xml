@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".Rrl" >
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+             android:textSize="20sp"
+        android:text="Address :Sher shah road,Laxmipur,Rajshahi.\n\nPhone :0721771277\nAmbulance: 771455\n\nEmail:royalrajshahi@gmail.com" />
+        
+           
+
+        <ImageButton
+            android:id="@+id/rlmap"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:onClick="process"
+            android:src="@drawable/rrl" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:textSize="20dp"
+            android:text="Live Contacts:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="370dp" >
+
+        <ImageButton
+            android:id="@+id/rlcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/rlmes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+            android:src="@drawable/mmm" />
+
+        <ImageButton
+            android:id="@+id/rlamb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ambula" />
+
+    </LinearLayout>
+    
+</RelativeLayout>

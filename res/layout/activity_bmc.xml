@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".Bmc" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="90dp"
+        android:paddingLeft="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:textSize="20sp"
+        android:text="Address:Choto bongram,namo vodra,Rajshahi.\n\nPhone :01777242402,0721761298\nAmbulance: 01716129375\n\nEmail:admin@bmc.edu.bd" />
+        
+        <ImageButton
+            android:id="@+id/bmap"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:onClick="process"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="8dp"
+            android:text="Live Contacts:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="370dp" >
+
+        <ImageButton
+            android:id="@+id/bcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/bmes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+            android:src="@drawable/mmm" />
+
+        <ImageButton
+            android:id="@+id/bamb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ambula" />
+
+    </LinearLayout>
+    
+    
+</RelativeLayout>

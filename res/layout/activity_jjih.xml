@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jjih" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="90dp"
+        android:paddingLeft="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:textSize="20sp"
+        android:text="Address:Kaji hata,Laxmipur,Rajshahi.\n\nPhone :01711192600,0721771146\nAmbulance: 01716438457\n\n" />
+        
+        <ImageButton
+            android:id="@+id/jmap"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:onClick="process"
+            android:src="@drawable/j" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="8dp"
+            android:text="Live Contacts:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="370dp" >
+
+        <ImageButton
+            android:id="@+id/jcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/jmes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+            android:src="@drawable/mmm" />
+
+        <ImageButton
+            android:id="@+id/jamb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ambula" />
+
+    </LinearLayout>
+    
+    
+</RelativeLayout>

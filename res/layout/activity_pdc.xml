@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pdc" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+             android:textSize="20sp"
+        android:text="Address:Chodhiri Tower,B-474,Sher shah road,Laxmipur,Rajshahi.\n\nPhone :0721812117,812118\nAmbulance: 0721812119\n\nEmail:popular@gmail.com" />
+        
+           
+
+        <ImageButton
+            android:id="@+id/pmap"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:onClick="process"
+            android:src="@drawable/pd" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingLeft="5dp"
+            android:text="Live Contacts:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="370dp" >
+
+        <ImageButton
+            android:id="@+id/pcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/pmes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+            android:src="@drawable/mmm" />
+
+        <ImageButton
+            android:id="@+id/pamb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ambula" />
+
+    </LinearLayout>
+    
+    
+</RelativeLayout>

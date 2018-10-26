@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hospital Info Bangladesh</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rmch">Rajshahi medical college,Hospital</string>
+    <string name="title_activity_rmc">Rmj</string>
+    <string name="title_activity_ibhr">Islami bank hospital rajshahi</string>
+    <string name="title_activity_pdc">Popular diagnostic centre ltd</string>
+    <string name="title_activity_rrl">Rajshahi royal hospital Lmt</string>
+    <string name="title_activity_jjih">Jom jom islami hospital</string>
+    <string name="title_activity_mdc">Medipath diagnostic complex</string>
+    <string name="title_activity_dc">Dolphin Clinic,Rajshahi</string>
+    <string name="title_activity_ibmch">Islami Bank Medical College Hospital</string>
+    <string name="title_activity_bmc">Barind medical college hospital</string>
+    <string name="title_activity_ab">About us</string>
+    <string name="title_activity_apollo_dhaka">Apollo Hospitals Dhaka</string>
+    <string name="title_activity_squaredhaka">Square Hospitals Limited</string>
+    <string name="title_activity_dhakamedicalc">Dhaka Medical College and Hospital</string>
+    <string name="title_activity_shalimullah">Sir Salimullah M College Mitford Hospital</string>
+    <string name="title_activity_square">Square Hospitals Limited</string>
+    <string name="title_activity_dhakamcollege">Dhaka Medical College and Hospital</string>
+    <string name="title_activity_delta">Delta Health Care Chittagong Limited</string>
+    <string name="title_activity_ekushe">Ekushey Hospital Private Limited</string>
+    <string name="title_activity_centre">Centre for Specialized Care and Reaseach</string>
+    <string name="title_activity_omg">M.A.G. Osmani Medical College</string>
+    <string name="title_activity_oasis">Oasis Hospital</string>
+    <string name="title_activity_north">North East Medical College and Hospital</string>
+    <string name="title_activity_ibnshyl">Ibn Sina Hospital Sylhet Limited</string>
+    <string name="title_activity_kmch">Khullna Medical College Hospital</string>
+    <string name="title_activity_shaikh">Sheikh Abu NaserSpecialised Hospital</string>
+    <string name="title_activity_shishu">Khulna Shishu Hospital</string>
+    <string name="title_activity_mmch">Mymensingh Medical College Hospital</string>
+    <string name="title_activity_sherebangla">Sher-E-Bangla M. College and Hospital</string>
+    <string name="title_activity_ramch">Rangpur Medical College and Hospital</string>
+
+</resources>

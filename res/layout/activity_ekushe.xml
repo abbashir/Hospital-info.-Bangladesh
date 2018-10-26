@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rmch" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+            android:textSize="16sp"
+             android:text="Address :Sugandha Rd 2, Chittagong, Bangladesh.\n\nPhone:+880 31-657629\n\nAmbulance:+880 31-657629" />
+
+        <ImageButton
+            android:id="@+id/ekushemap"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:onClick="process"
+            android:src="@drawable/ekushy" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"
+            android:text="Live Contacts:" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="370dp" >
+
+        <ImageButton
+            android:id="@+id/ekushecal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/ekushemes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+            android:src="@drawable/mmm" />
+
+        <ImageButton
+            android:id="@+id/ekusheamb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ambula" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techitlarge.hospitalinfobangladesh"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Rmch"
+            android:label="@string/title_activity_rmch"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Rmc"
+            android:label="@string/title_activity_rmc"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Ibhr"
+            android:label="@string/title_activity_ibhr"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Pdc"
+            android:label="@string/title_activity_pdc"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Rrl"
+            android:label="@string/title_activity_rrl"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Jjih"
+            android:label="@string/title_activity_jjih"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Mdc"
+            android:label="@string/title_activity_mdc"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Dc"
+            android:label="@string/title_activity_dc"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Ibmch"
+            android:label="@string/title_activity_ibmch"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Bmc"
+            android:label="@string/title_activity_bmc"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Ab"
+            android:label="@string/title_activity_ab"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.ApolloDhaka"
+            android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_apollo_dhaka" >
+             <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Squaredhaka" 
+            android:label="@string/title_activity_squaredhaka"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity"
+             >
+             <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Dhakamedicalc"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_dhakamedicalc" >
+               <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Shalimullah"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_shalimullah" >
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Square"
+            android:label="@string/title_activity_square" >
+                 <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Dhakamcollege"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_dhakamcollege" >
+                  <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Delta"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_delta" >
+                   <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Ekushe"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_ekushe" >
+                    <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Centre"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_centre" >
+                     <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Omg"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_omg" >
+                      <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Oasis"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_oasis" >
+                       <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.North"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_north" >
+                        <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Ibnshyl"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_ibnshyl" >
+                         <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Kmch"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_kmch" >
+                          <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Shaikh"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_shaikh" >
+                           <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Shishu"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_shishu" >
+                            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Mmch"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_mmch" >
+                             <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Sherebangla"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+            android:label="@string/title_activity_sherebangla" >
+                              <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.techitlarge.hospitalinfobangladesh.Ramch"
+            android:label="@string/title_activity_ramch"
+             android:parentActivityName="com.techitlarge.hospitalinfobangladesh.MainActivity" 
+             >
+               <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
